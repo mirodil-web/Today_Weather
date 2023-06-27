@@ -56,10 +56,12 @@ backdrop-filter:
 }
 .w{
   position: absolute;
-  top: 350px;
-  left: 50px;
+  top: 320px;
+  left: 35px;
   z-index: -3;
   font-size: 35px;
+  border:  1px solid rgb(88, 149, 230);
+
 }
 .loding-img{
     position: fixed;
