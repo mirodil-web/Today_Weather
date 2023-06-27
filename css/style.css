@@ -36,10 +36,12 @@ backdrop-filter:
   border-radius: 7px;
   position: relative;
   z-index: 2;
+  margin-bottom: 73px;
 }
 .gmg{
-  position: absolute;
+  position: fixed;
   top: 0;
+
 }
 .overlay-div{
     top: 0;
@@ -47,7 +49,10 @@ backdrop-filter:
     position: fixed;
     width: 100%;
     height: 100%;
-    background-color: grey;
+    background-color: rgb(1, 23, 48);
+}
+.y{
+  overflow-y: hidden;
 }
 .w{
   position: absolute;
@@ -58,7 +63,7 @@ backdrop-filter:
 }
 .loding-img{
     position: fixed;
-    right: 43%;
+    right: 40%;
     bottom: 33%;
 }
 .hidden{

@@ -5,6 +5,10 @@ const weatherIcon = document.getElementById('weather-icon')
 const overlay = document.getElementById('overlay')
 const elOver = document.querySelector('.js-overlay')
 
+setTimeout(() => {
+    elOver.classList.add('hidden')
+    document.body.classList.remove('y')
+}, 5000);
 
 const updateUI = (weather)=>{
   details.innerHTML = ` 
