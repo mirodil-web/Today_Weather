@@ -23,6 +23,9 @@ body{
   height: 100%;
   background-color: black;
 }
+.form-control{
+  margin-bottom: 80px;
+}
 .bg{
   top: -60px;
   left: 35%;
@@ -59,10 +62,9 @@ backdrop-filter:
   overflow-y: hidden;
 }
 .w{
-  position: absolute;
-  top: 320px;
-  left: 35px;
-  z-index: -3;
+ max-width: 277px;
+ margin-left: auto;
+ margin-right: auto;
   font-size: 35px;
   border:  1px solid rgb(88, 149, 230);
 

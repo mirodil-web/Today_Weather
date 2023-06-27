@@ -4,6 +4,7 @@ const details = document.getElementById('details')
 const weatherIcon = document.getElementById('weather-icon')
 const overlay = document.getElementById('overlay')
 const elOver = document.querySelector('.js-overlay')
+const elW = document.querySelector('.w')
 
 setTimeout(() => {
     elOver.classList.add('hidden')
@@ -39,5 +40,7 @@ changeLocation.addEventListener('submit', function(e){
    const cityName = changeLocation.city.value.trim()
    changeLocation.reset() 
    getWeather(cityName).then((data)=> updateUI(data))
+
+   elW.classList.add('hidden')
 
 })
